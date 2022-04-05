@@ -1,0 +1,16 @@
+twig:
+    default_path: '%kernel.project_dir%/templates'
+    globals:
+        domain: '%env(DOMAIN_NAME)%'
+        shopName: '%env(SHOP_NAME)%'
+        shopEmail: '%env(SHOP_EMAIL)%'
+        shopPhone: '%env(SHOP_PHONE)%'
+        shopAddress: '%env(SHOP_ADDRESS)%'
+        ie: '%env(IE)%'
+        actualAddress: '%env(ACTUAL_ADDRESS)%'
+        inn: '%env(INN)%'
+        ogrnip: '%env(OGRNIP)%'
+        bonusInterestRate: '%env(BONUS_INTEREST_RATE)%'
+        freeDeliveryFrom: '%env(FREE_DELIVERY_FROM)%'
+        version_css: '%env(VERSION_CSS)%'
+        version_js: '%env(VERSION_JS)%'
